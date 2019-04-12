@@ -1,0 +1,944 @@
+body{
+    overflow-x: hidden;
+}
+.img-responsive{
+	display: inline!important;
+}
+.footer {
+    padding-top: 18px;
+    padding-bottom: 61px;
+    font-family: bebas;
+    font-size: 37px;
+    color: #f06786;
+    background: #fff8c1;
+}
+i.fa.fa-instagram:hover {
+    background: #f06786;
+}
+i.fa.fa-facebook:hover {
+    background: #f06786;
+}
+a:hover, a:focus {
+    /* color: #23527c; */
+    text-decoration: none!important;
+}
+i.fa.fa-facebook {
+    border-radius: 35px;
+    font-size: 31px;
+    padding: 6px 12px 6px 12px;
+    color: #fff8c1;
+    background: #f2a7b8;
+}
+.espumas {
+    z-index: 999;
+}
+i.fa.fa-instagram {
+    border-radius: 35px;
+    font-size: 32px;
+    padding: 6px 8px 6px 8px;
+    color: #fff8c1;
+    background: #f2a7b8;
+}
+/**************** CUERPO 1 *******************/
+.adentro-1 {
+    text-align: center;
+}
+.cuerpo-1 {
+    background-image: url(../images/1/fondos_01.png);
+    position: relative;
+    height: auto;
+    background-repeat: no-repeat;
+   	background-size: 100% 100%;
+}
+.letras-1 {
+    left: 74px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 14px;
+}
+.letras-1 img {
+    width: 78%;
+}
+.minilogo {
+    padding-top: 27px;
+}
+.col-md-12.adentro-1 {
+    float: none;
+}
+.medio-principal-1 {
+    padding-bottom: 301px;
+    padding-top: 52px;
+}
+
+/**************** CUERPO 1 *******************/
+/**************** CUERPO 2 *******************/
+.cuerpo-2 {
+    background-image: url(../images/2/fondos_03.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40pc;
+}
+
+.col-md-12.adentro-2 {
+    float: none;
+}
+.medio-principal-2 {
+    margin-bottom: -46%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -10pc;
+}
+.adentro-2 {
+    text-align: center;
+}
+.hierro {
+    padding-top: 248px;
+    opacity: 0.5;
+    padding-bottom: 234px;
+}
+.pisalinea img {
+    position: absolute;
+    z-index: 999;
+    left: -7%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30pc;
+    top: -13pc;
+}
+div#scene img {
+    width: 63pc;
+    margin-left: 2%;
+}
+/*div#scene {
+    top: -532px;
+    width: 100%;
+}*/
+/**************** CUERPO 2 *******************/
+/**************** CUERPO 3 *******************/
+.cuerpo-3 {
+    background-image: url(../images/3/fondo_3.png);
+    float: none;
+    z-index: 999;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 148px;
+    text-align: center;
+}
+.niño-3 {
+    margin-left: 87px;
+}
+.texto-3 {
+    left: 66px;
+}
+
+/**************** CUERPO 3 *******************/
+/**************** CUERPO 4 *******************/
+/* Carousel */
+.cuerpo-4 {
+    background-image: url(../images/4/fondo_4_02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 109px;
+    padding-bottom: 108px;
+}
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: #f33;
+    opacity: 1;
+    overflow: hidden;
+}
+
+
+#quote-carousel-2 {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+
+#quote-carousel-2 .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel-2 .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel-2 .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel-2 .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel-2 .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: #f33;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 300px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+.carousel-control {
+    top: 159px!important;
+    color: #eb496c!important;
+    opacity: 1!important;
+    font-size: 65px!important;
+}
+.titulo-4 {
+    text-align: center;
+    float: none;
+}
+.iconos {
+    position: absolute;
+}
+.niñoamarillo{
+    width: 582px;
+}
+.iconos.icono_1 {
+    top: -32px;
+    left: 0;
+}
+.iconos.icono_2 {
+    top: 160px;
+    left: 61px;
+}
+.iconos.icono_3 {
+    top: 19px;
+    right: -31px;
+    /* left: 0; */
+}
+.iconos.icono_4 {
+    right: 72px;
+    top: 146px;
+}
+.iconos.icono_5 {
+    right: -128px;
+    top: 254px;
+}
+.niño-3 {
+    margin-left: 133px;
+    position: relative;
+    float: left;
+    width: 500px;
+}
+.iconos img {
+    width: 90px;
+}
+.iconos.icono_6 {
+    right: -89px;
+    bottom: 110px;
+}
+.icono_6:hover .jirafa_hover{
+    display: block;
+}
+.jirafa_hover {
+    display: none;
+    position: absolute;
+    top: -20px;
+    z-index: 99;
+    right: -173px;
+}
+.jirafa_hover img {
+    width: 205px;
+}
+.rayo_hover {
+    display: none;
+    position: absolute;
+    top: 16px;
+    z-index: 99;
+    right: -153px;
+}
+.rayo_hover img {
+    width: 205px;
+}
+.icono_5:hover .rayo_hover{
+    display: block;
+}
+.cruz_hover{
+    display: none;
+    position: absolute;
+    top: 16px;
+    z-index: 99;
+    right: -153px;
+}
+.cruz_hover img {
+    width: 205px;
+}
+.icono_4:hover .cruz_hover{
+    display: block;
+}
+.vitalidad_hover{
+      display: none;
+    position: absolute;
+    top: 16px;
+    z-index: 99;
+    right: -153px;
+}
+.vitalidad_hover img {
+    width: 205px;
+}
+.icono_3:hover .vitalidad_hover{
+    display: block;
+}
+.salud_hover{
+  display: none;
+    position: absolute;
+    top: 16px;
+    z-index: 99;
+    right: -153px;  
+}
+.salud_hover img {
+    width: 205px;
+}
+.icono_2:hover .salud_hover{
+    display: block;
+}
+.protegidos_hover {
+    display: none;
+    position: absolute;
+    top: 16px;
+    z-index: 99;
+    right: -14px;
+}
+.protegidos_hover img {
+    width: 205px;
+}
+.icono_1:hover .protegidos_hover{
+    display: block;
+}
+/**************** CUERPO 4 *******************/
+
+/**************** CUERPO 5 *******************/
+.cuerpo-5 {
+    background-image: url(../images/5/fondo_5_02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 167px;
+    padding-bottom: 85px;
+}
+.texto-5 {
+    text-align: center;
+}
+
+#trashCan {
+  float: right;
+}
+div#draggables {
+    position: absolute;
+}
+.good.verduras {
+    margin-left: -63px;
+}
+.good.ironkid {
+    margin-left: -60px;
+    top: 71px;
+}
+.good.frutas {
+    left: -67px;
+}
+.good.cernes {
+    left: -68px;
+    margin-bottom: 29px;
+}
+.good.huevos {
+    left: -51px;
+    margin-bottom: 28px;
+}
+/**************** CUERPO 5 *******************/
+/**************** CUERPO 6 *******************/
+.cuerpo-6 {
+    background-image: url(../images/6/fondo_6_04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.titulo-6 {
+    text-align: center;
+    padding-bottom: 45px;
+}
+.partes-1-6 .col-md-4 {
+    margin-bottom: 16px;
+}
+button.close {
+    position: absolute;
+    right: 7px;
+    color: #000;
+    opacity: 5;
+    font-size: 34px;
+    top: -4px;
+}
+.modal.fade.bs-example-modal-lg-1.in {
+    background-image: linear-gradient(to right bottom, #e11731ad, #f32560bf, #fc418eba, #fc5fbbe8, #f27de3b8);
+}
+
+
+
+/**************** CUERPO 6 *******************/
+
+/**************** CUERPO 7 *******************/
+.cuerpo-7 {
+    background-image: url(../images/7/fondo_7_02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.texto-7 {
+    text-align: center;
+}
+
+.personaje-7 {
+    text-align: center;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-16px)!important;
+}
+.col-md-12.titulo-4 {
+    margin-bottom: 62px;
+}
+.layer {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+}
+.rayos .izquierdo {
+    position: relative;
+    left: -616px !important;
+    top: 254px;
+}
+.rayos .derecho {
+    position: relative;
+    right: -539px !important;
+    top: 161px;
+}
+
+.productos .izquierdo {
+    position: relative;
+    left: -308px !important;
+    top: 135px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+}
+.productos .derecho {
+    position: relative;
+    right: -313px !important;
+    top: 135px;
+    filter: drop-shadow(-9px 5px 6px #222);
+}
+.logo-bimbo {
+    text-align: center;
+    margin-top: 16px;
+}
+.principal-1dentro {
+    position: relative;
+    height: 985px;
+    padding-top: 88px;
+}
+.espumas .derecho {
+    position: relative;
+    bottom: -422px !important;
+    right: -402px;
+}
+.espumas .izquierdo {
+    position: relative;
+    bottom: -467px !important;
+    left: -389px;
+}
+.letras-principal img {
+    top: 186px;
+    position: relative;
+}
+.huevo-0 {
+    position: absolute;
+    top: 0;
+}
+.carnes {
+    position: absolute;
+    top: 233px;
+}
+.ironkid-0 {
+    position: absolute;
+    right: 0;
+    bottom: 60px;
+}
+.verduras-0 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.man-5 {
+    text-align: center;
+}
+.frutas-0 {
+    position: absolute;
+    bottom: 10px;
+}
+.vacio {
+    
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: -128px;
+    top: 229px;
+}
+.modal-mccann {
+    background: #ffffffb0;
+    position: fixed;
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: none;
+}
+.modal-huevos {
+    position: absolute;
+    z-index: 9999999;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: -152px;
+    top: 132px;
+    display: none;
+}
+.modal-carnes {
+    position: absolute;
+    z-index: 9999999;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: -152px;
+    top: 132px;
+    display: none;
+}
+.modal-frutas {
+    position: absolute;
+    z-index: 9999999;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: -152px;
+    top: 132px;
+    display: none;
+}
+.modal-verdura {
+    position: absolute;
+    z-index: 9999999;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: -152px;
+    top: 132px;
+    display: none;
+}
+.modal-ironkids {
+    position: absolute;
+    z-index: 9999999;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: -152px;
+    top: 132px;
+    display: none;
+}
+img.cerrar {
+    top: -138px;
+    position: relative;
+    left: -106px;
+}
+/**************** CUERPO 7 *******************/
+@media (min-width: 320px) and (max-width: 500px) {
+.niño-3 {
+    margin-left: 18px;
+    zoom: 56%;
+    margin-top: 90px;
+}
+.protegidos_hover {
+    display: none;
+    position: absolute;
+    top: 43px;
+    z-index: 99;
+    right: -64px;
+}
+.texto-hierro p {
+    font-family: bebas;
+    color: #fff;
+    font-size: 27px;
+}
+.mobile-panes {
+    padding-top: 32px;
+    z-index: 999;
+    position: relative;
+}
+#quote-carousel-2 .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: -31px;
+}
+.jirafa_hover {
+    display: none;
+    position: absolute;
+    top: 74px;
+    z-index: 99;
+    right: -44px;
+}
+.rayo_hover {
+    display: none;
+    position: absolute;
+    top: 16px;
+    z-index: 99;
+    right: 36px;
+}
+.cruz_hover {
+    display: none;
+    position: absolute;
+    top: 49px;
+    z-index: 99;
+    right: -102px;
+}
+.vitalidad_hover {
+    display: none;
+    position: absolute;
+    top: 52px;
+    z-index: 99;
+    right: -90px;
+}
+.draggable img {
+    width: 82px;
+}
+#quote-carousel-2 .carousel-control.left {
+    left: -9px;
+}
+#quote-carousel-2 .carousel-control.right {
+    right: -9px;
+}
+.frutas-0 {
+    position: absolute;
+    bottom: 128px;
+}
+img.man-image {
+    width: 350px;
+    margin-left: -67px;
+}
+.modal-general {
+    left: 0px !important;
+    top: 0px;
+}
+img.cerrar {
+    top: -332px;
+    position: relative;
+    left: 115px;
+}
+.vacio {
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: -48px;
+    top: 107px;
+}
+.vacio img {
+    width: 111px;
+}
+.pisalinea img {
+    position: absolute;
+    z-index: 999;
+    left: -13%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13pc;
+    top: -5pc;
+}
+.drapanddrop {
+    /*zoom: 30%;*/
+    margin-top: 81px;
+}
+.principal-1dentro {
+    position: relative;
+    height: 90pc;
+    padding-top: 88px;
+    zoom: 19%;
+}
+
+.hierro {
+    padding-top: 144px;
+    opacity: 0.5;
+    padding-bottom: 0;
+}
+.medio-principal-2 {
+    margin-bottom: -46%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 8pc;
+}
+.cuerpo-2 {
+    background-image: url(../images/mobile/fondo_2_01.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 24pc;
+}
+.texto-3 {
+    left: 0;
+}
+.cuerpo-3 {
+    background-image: url(../images/mobile/Fondo_3_02.png);
+    float: none;
+    z-index: 999;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding-top: 20px;
+    text-align: center;
+}
+.carousel-control {
+    top: 159px!important;
+    color: #eb496c!important;
+    opacity: 1!important;
+    font-size: 40px!important;
+}
+.texto-7 img {
+    width: 81%;
+}
+#quote-carousel .carousel-control.right {
+    right: -3px;
+}
+#quote-carousel .carousel-control.left {
+    left: -6px;
+}
+.medio-principal-1 {
+    padding-bottom: 150px;
+    padding-top: 52px;
+}
+.letras-1 {
+    left: 26px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 14px;
+}
+.cuerpo-4 {
+    background-image: url(../images/mobile/fondo_4_02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 109px;
+    padding-bottom: 0;
+}
+.niño-3 {
+    margin-left: 0;
+}
+
+.logo-bimbo {
+    text-align: center;
+    margin-top: 0px;
+}
+.good.huevos {
+    left: -31px;
+    margin-bottom: 28px;
+}
+.good.cernes {
+    zoom: 42%;
+}
+.good.frutas {
+    zoom: 42%;
+}
+.carousel-inner.text-center img {
+    width: 84%;
+}
+.good.verduras {
+    zoom: 42%;
+}
+.good.ironkid {
+    zoom: 42%;
+}
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: -48px;
+}
+#quote-carousel-2 {
+    padding: 0 10px 30px 10px;
+    margin-top: -48px;
+}
+.cuerpo-5 {
+    background-image: url(../images/5/fondo_5_02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 64px;
+    padding-bottom: 128px;
+}
+.footer {
+    padding-top: 18px;
+    padding-bottom: 1px;
+    font-family: bebas;
+    font-size: 23px;
+    color: #f06786;
+    background: #fff8c1;
+}
+i.fa.fa-instagram {
+    border-radius: 35px;
+    /*border: solid 1px #f1708b;*/
+    font-size: 23px;
+    padding: 6px 8px 6px 8px;
+    color: #fff8c1;
+    background: #f2a7b8;
+}
+i.fa.fa-facebook {
+    border-radius: 35px;
+    /*border: solid 1px #f1708b;*/
+    font-size: 23px;
+    padding: 6px 10px 6px 10px;
+    color: #fff8c1;
+    background: #f2a7b8;
+}
+}
+@media (min-width: 1100px) and (max-width: 1440px) {
+    .principal-1dentro {
+    zoom: 71%;
+    height: 1126px;
+    }
+}
+@media (min-width: 1020px) and (max-width: 1025px) {
+.draggable img {
+    width: 138px;
+}
+.niño-3 {
+    margin-left: 44px;
+    position: relative;
+    float: left;
+    width: 471px;
+}
+img.man-image {
+    width: 558px;
+}
+.niñoamarillo {
+    width: 576px;
+}
+.principal-1dentro {
+    position: relative;
+    height: 1094px;
+    padding-top: 88px;
+    zoom: 60%;
+}
+}
+@media (min-width: 700px) and (max-width: 800px) {
+.principal-1dentro {
+    position: relative;
+    height: 1281px;
+    padding-top: 88px;
+    zoom: 41%;
+}
+.niño-3 {
+    margin-left: 77px;
+}
+.pisalinea img {
+    position: absolute;
+    z-index: 999;
+    left: -7%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 24pc;
+    top: -9pc;
+}
+.logo-bimbo {
+    text-align: center;
+    margin-top: 0;
+}
+#quote-carousel .carousel-control.right {
+    right: -26px;
+}
+#quote-carousel .carousel-control.left {
+    left: -33px;
+}
+}
